@@ -159,21 +159,23 @@ nav ul li {
   margin-left: 1rem;
 }
 nav ul li a {
-  color: var(--light-gray);
+  color: var(--white);
   border: 0;
   background-color: transparent;
 }
 nav ul li a:hover {
-  color: var(--white);
   background-color: transparent;
+}
+nav ul li a span:hover {
+  background-color: var(--highlight) !important;
 }
 #intro h1 {
   font-family: var(--handwriting-font);
   font-size: 2rem;
 }
 .profile-pic {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 .icon {
   width: 24px;
@@ -187,20 +189,39 @@ nav ul li a:hover {
 }
 .icon-linkedin {
   mask: url(img/linkedin.svg);
+  -webkit-mask-image: url(img/linkedin.svg);
 }
 .icon-github {
   mask: url(img/github.svg);
+  -webkit-mask-image: url(img/github.svg);
 }
 .icon-email {
   mask: url(img/email.svg);
+  -webkit-mask-image: url(img/email.svg);
 }
-.icon-down-arrow {
+.icon-arrow-down {
   background: var(--light-gray);
-  mask: url(img/down-arrow.svg);
+  mask: url(img/arrow-down.svg);
+  -webkit-mask-image: url(img/arrow-down.svg);
 }
-.icon-down-arrow:hover {
+.icon-arrow-down:hover {
   position: relative;
   top: 3px;
+}
+.icon-arrow-right {
+  background: var(--highlight);
+  mask: url(img/arrow-right.svg);
+  -webkit-mask-image: url(img/arrow-right.svg);
+  width: 16px;
+  height: 16px;
+  margin: 0 0.25rem;
+  position: relative;
+  top: 2px;
+}
+.icon-arrow-right:hover {
+  background: var(--highlight);
+  position: relative;
+  left: 1px;
 }
 .border-left {
   border-left: 2px solid var(--dark-gray);
