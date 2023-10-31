@@ -1,0 +1,42 @@
+@use "colors" as *;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: $black;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+  width: 80%;
+  height: 400px;
+  background: $teal;
+  margin: auto;
+}
+
+h1 {
+  color: $white;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+p {
+}

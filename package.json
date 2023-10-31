@@ -1,0 +1,12 @@
+{
+  "name": "constalexander.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio of Alex Crist",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch css/scss:css"
+  },
+  "author": "Alex Crist",
+  "license": "ISC"
+}

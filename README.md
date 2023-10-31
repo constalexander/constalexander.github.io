@@ -1,12 +1,11 @@
-# Alex Crist's GitHub Profile
+<style>
+body {
+  background:#1c1c22
+}
+</style>
 
-## Tech Stack
+<h1><a href="https://alex-crist.com" target="_blank" style="color:#76d8d5;">Alex-Crist.com</a></h1>
 
-[![HTML](https://img.shields.io/badge/HTML-5-gray?style=plastic&logo=HTML5)]()
-[![CSS](https://img.shields.io/badge/CSS-3-gray?style=plastic&logo=CSS3&logoColor=11aaff)]()
-[![JavaScript](https://img.shields.io/badge/JavaScript-gray?style=plastic&logo=JavaScript)]()
-
-## See it live
-
-- [alex-crist.com](https://alex-crist.com)
-- [constalexander.github.io](https://constalexander.github.io)
+[![HTML](https://img.shields.io/badge/HTML-1c1c22?style=for-the-badge&logo=HTML5)]()
+[![SASS](https://img.shields.io/badge/Sass-1c1c22?style=for-the-badge&logo=sass)]()
+[![JS](https://img.shields.io/badge/JavaScript-1c1c22?style=for-the-badge&logo=JavaScript)]()
